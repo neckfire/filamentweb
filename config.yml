@@ -111,7 +111,7 @@ params:
       websiteUrl: #
     infoTitle: Le no-code ?
     infoDescription: Qu'est ce que c'est et pourquoi l'utilisons nous ?
-    infoImgUrl: "/uploads/no.png"
+    infoImgUrl: "/uploads/no.webp"
     infoContent: Le no code est un mouvement qui vise à permettre aux personnes sans expérience en développement informatique de créer des applications ou des sites web sans avoir à écrire de code. Avec les outils de no code, il est possible de créer des applications ou des sites web en utilisant des éditeurs de page visuels, des interfaces graphiques et des blocs de construction pré-construits. Ces outils permettent aux utilisateurs de créer des applications sans avoir à écrire de code, en utilisant simplement des fonctionnalités glisser-déposer ou en remplissant des formulaires. Le no code est souvent utilisé par les entrepreneurs, les petites entreprises et les start-ups qui cherchent à créer une présence en ligne rapidement et à moindre coût. Les outils de no code peuvent également être utilisés par des personnes ayant des connaissances techniques limitées, mais qui souhaitent créer leurs propres applications ou sites web sans avoir à apprendre à coder.
 
   # Search Options (https://fusejs.io/)

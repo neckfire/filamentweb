@@ -109,6 +109,12 @@ params:
       alt: # image alt for better SEO
       description: Avoir une information fiable sur ce qui est à faire, comment et où le faire. Cela permet également un retour en temps réel et un enregistrement de tous les éléments au fur et à mesure (documents de contrôle qualité, de sécurité, de facturation, et d’autres comme des photos, signatures clients, stocks…). La liste est tellement longue que personne ne la lirait entièrement… Tout est possible !
       websiteUrl: #
+    infoTitle: Le no-code ?
+    infoDescription: Le no code (ou "sans code" en français) est un mouvement qui vise à permettre aux personnes sans expérience en développement informatique de créer des applications ou des sites web sans avoir à écrire de code.
+
+Avec les outils de no code, il est possible de créer des applications ou des sites web en utilisant des éditeurs de page visuels, des interfaces graphiques et des blocs de construction pré-construits. Ces outils permettent aux utilisateurs de créer des applications sans avoir à écrire de code, en utilisant simplement des fonctionnalités glisser-déposer ou en remplissant des formulaires.
+
+Le no code est souvent utilisé par les entrepreneurs, les petites entreprises et les start-ups qui cherchent à créer une présence en ligne rapidement et à moindre coût. Les outils de no code peuvent également être utilisés par des personnes ayant des connaissances techniques limitées, mais qui souhaitent créer leurs propres applications ou sites web sans avoir à apprendre à coder.
   # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false

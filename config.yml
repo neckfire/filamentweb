@@ -1,0 +1,164 @@
+---
+baseURL: https://piko-heksagon.netlify.app/
+languageCode: en-us
+title: Filament
+theme: piko
+themesdir: ./themes/
+paginate: "9"
+copyright: Made by [Neckfire](https://nfteam.netlify.app)
+googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepWhitespace: false
+
+params:
+  analytics:
+    google:
+      SiteVerificationTag: # Google Site Verification
+    yandex:
+      SiteVerificationTag: # Yandex Site Verification
+    bing:
+      SiteVerificationTag: # Bing Site Verification
+  env: production
+  author: Neckfire
+  description: No code
+  math: false
+  images:
+  - "/uploads/og.webp"
+  label:
+    title: Filament
+    text: Digitalisez, simplifiez et reliez vos outils
+    lightNavIcon: /uploads/filamentlogo2.png
+    darkNavIcon: /uploads/filamentlogo2.png
+    iconHeight: "35"
+    iconWIdth: "35"
+  comments: true
+  mainSections:
+  - Avis
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowRelated: true
+  CookieNotice: On est les cookies ! Pour un meilleur contenu, vous devriez accepter ! 
+  CookieLink: /legal/privacy/#cookies-and-web-beacons
+  CookieButton: Cookies Policy
+  disableAnchoredHeadings: false
+  contactFormAction: https://formsubmit.co/neckfire.gaming@gmail.Com # Get link from https://formsubmit.io or https://fabform.io
+  assets:
+    disableFingerprinting: false
+    favicon: /uploads/favicon.ico
+    favicon16x16: /uploads/favicon.ico
+    favicon32x32: /uploads/favicon.ico
+    apple_touch_icon: /uploads/favicon.ico
+    safari_pinned_tab: /uploads/favicon.ico
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  homepage:
+    # Hero Section
+    disableHeroSection: false
+    heroUpperTitle: 
+    heroTitle: Filament
+    heroDescription: Digitalisez, simplifiez et reliez vos outils
+    heroCTAPrimaryText: Voir les avis de nos clients
+    heroCTAPrimaryUrl: "/avis/"
+    heroCTASecondaryText: Nous contacter
+    heroCTASecondaryUrl: "/contact/"
+    heroBackgroundImage: "/uploads/metiers.jpg"
+    # Blog Section
+    disableBlogSection: false
+    blogTitle: POUR QUI?
+    blogDescription: 
+    seeMoreText: Voir les avis de nos clients
+    # About Section    
+    disableAboutSection: false
+    aboutTitle: Que faisons-nous
+    aboutDescription: Des outils personnalisés... 
+    aboutImgUrl: "/uploads/filamentlogo.png"
+    aboutContent: Nous developpons des interfaces simples mais fonctionnelles qui permettent aux membres de vôtre entreprise de pouvoir l'utiliser sans tracas. Nos applications vous permettent de mieux gérer vos taches, et d'être mieux organisé. Nous utilisons des logiciels no-code/low-code pour vous permettre d'obtenir votre outil dans les plus brefs délais.
+    # Portfolio Section
+    disablePortfolioSection: false
+    portfolioTitle: Notre travail, vos outils.
+    portfolioDescription: Adaptez vos outils à votre entreprise, et pas l’inverse !!!
+    portfolio:
+    - imageUrl: /uploads/admin_web.jpg
+      alt: # image alt for better SEO
+      description: Il permettent de gagner du temps par l’automatisation de certaines tâches ou de certaines étapes, de faciliter la communication en interne, grandement faciliter la gestion des documents… et tant d’autres…
+      websiteUrl: #
+    - imageUrl: /uploads/dirigeant_web.jpg
+      alt: # image alt for better SEO
+      description: Ces outils permettent de gérer, anticiper, planifier, organiser, suivre, avoir une vue d’ensemble des projets / des chantiers / de la production etc… et surtout, d’avoir l’information juste et en temps réel.
+      websiteUrl: #
+    - imageUrl: /uploads/terrain_web.jpg
+      alt: # image alt for better SEO
+      description: Avoir une information fiable sur ce qui est à faire, comment et où le faire. Cela permet également un retour en temps réel et un enregistrement de tous les éléments au fur et à mesure (documents de contrôle qualité, de sécurité, de facturation, et d’autres comme des photos, signatures clients, stocks…). La liste est tellement longue que personne ne la lirait entièrement… Tout est possible !
+      websiteUrl: #
+  # Search Options (https://fusejs.io/)
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: "0"
+    distance: "1000"
+    threshold: "0.4"
+    minMatchCharLength: "0"
+    keys:
+    - title
+    - permalink
+    - summary
+    - content
+  plugins:
+    css:
+    - link: plugins/css/pico.min.css
+    js:
+    - link: plugins/js/feather.min.js
+menus:
+  main: # Main Menu
+  - name: Avis
+    title: Avis
+    pre: pen-tool
+    url: "/avis"
+    weight: "20"
+  - name: Search
+    title: Recherche
+    pre: search
+    url: "/search"
+    weight: "30"
+  - name: Contact
+    title: Contact
+    pre: mail
+    url: "/contact"
+    weight: "40"
+  #- name: Github
+  #  title: 
+  #  pre: github
+  #  url: https://github.com/heksagonnet/piko
+  #  weight: "50"
+  #search: # Search page's quick links
+  #- name: Categories
+  #  title: Categories
+  #  url: "/categories"
+  #  weight: "10"
+  #- name: Archives
+  #  title: Archives
+  #  url: "/archives"
+  #  weight: "20"
+  #- name: Tags
+  #  title: Tags
+  #  url: "/tags"
+  #  weight: "30"

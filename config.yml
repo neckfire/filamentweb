@@ -126,7 +126,7 @@ params:
       websiteUrl: #
     - imageUrl: 
       alt: Résilience
-      description: Il n’y a pas d’échecs, il n’y a que des avancées sous forme d’expériences. Les obstacles et difficultés sont nombreuses ; autant de chances de progrès !"
+      description: Il n’y a pas d’échecs, il n’y a que des avancées sous forme d’expériences. Les obstacles et difficultés sont nombreux ; autant de chances de progrès !"
       websiteUrl: #
   # Search Options (https://fusejs.io/)
   fuseOpts:

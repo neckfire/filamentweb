@@ -114,6 +114,20 @@ params:
     infoImgUrl: "/uploads/no.webp"
     infoContent: Le no code est un mouvement qui vise à permettre aux personnes sans expérience en développement informatique de créer des applications ou des sites web sans avoir à écrire de code. Avec les outils de no code, il est possible de créer des applications ou des sites web en utilisant des éditeurs de page visuels, des interfaces graphiques et des blocs de construction pré-construits. Ces outils permettent aux utilisateurs de créer des applications sans avoir à écrire de code, en utilisant simplement des fonctionnalités glisser-déposer ou en remplissant des formulaires. Le no code est souvent utilisé par les entrepreneurs, les petites entreprises et les start-ups qui cherchent à créer une présence en ligne rapidement et à moindre coût. Les outils de no code peuvent également être utilisés par des personnes ayant des connaissances techniques limitées, mais qui souhaitent créer leurs propres applications ou sites web sans avoir à apprendre à coder.
 
+    nousTitle: Nos valeurs 
+    nous:
+    - imageUrl:
+      alt: Audace
+      description: Audacieux mais pas téméraire ! Valeur qui nous permet de franchir des caps et limites qui paraissent pourtant compliqués. L’audace nous permet d’avancer et vous faire avancer.
+      websiteUrl: #
+    - imageUrl: 
+      alt: Transparence
+      description: Elle met naturellement en avant notre bienveillance et notre dévouement. Nous mettons un point d’honneur à ce que nos relations soient saines afin de vous apporter toute notre valeur.
+      websiteUrl: #
+    - imageUrl: 
+      alt: Résilience
+      description: Il n’y a pas d’échecs, il n’y a que des avancées sous forme d’expériences. Les obstacles et difficultés sont nombreuses ; autant de chances de progrès !"
+      websiteUrl: #
   # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false

@@ -91,7 +91,7 @@ params:
     aboutTitle: Que faisons-nous
     aboutDescription: Des outils personnalisés, de nouvelles facultées... 
     aboutImgUrl: "/uploads/filamentlogo.png"
-    aboutContent: Nous developpons des interfaces simples mais fonctionnelles qui permettent aux membres de vôtre entreprise de pouvoir l'utiliser sans tracas pour réaliser de nombreuses tâches. Nos applications vous permettent de mieux gérer vos taches, et d'être mieux organisé. Nous utilisons des logiciels no-code/low-code pour développer vos outils et vous permettre de les obtenir dans les plus brefs délais.
+    aboutContent: Nous developpons des interfaces simples mais fonctionnelles qui permettent aux membres de vôtre entreprise de pouvoir les utiliser sans tracas pour réaliser de nombreuses tâches. Nos applications vous permettent de mieux gérer vos taches, et d'être mieux organisé. Nous utilisons des logiciels no-code/low-code pour développer vos outils et vous permettre de les obtenir dans les plus brefs délais.
     # Portfolio Section
     disablePortfolioSection: false
     portfolioTitle: Notre travail, vos outils.

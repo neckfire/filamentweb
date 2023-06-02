@@ -45,7 +45,7 @@ params:
   - "/uploads/og.webp"
   label:
     title: Filament
-    text: Digitalisez, simplifiez et reliez vos outils
+    text: Digitalisez, simplifiez et reliez vos outils. Pour une gestion éfficace et accessible
     lightNavIcon: /uploads/filamentlogo2.png
     darkNavIcon: /uploads/filamentlogo2.png
     iconHeight: "35"
